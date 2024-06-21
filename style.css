@@ -96,6 +96,7 @@ nav a {
   color: #fff;
   padding: 0.75em 1.5em;
   border-radius: 5px;
+  margin-top: 20px;
   text-decoration: none;
 }
 
@@ -155,6 +156,7 @@ nav a {
 .process ol {
   list-style: none;
   padding: 25px;
+
   margin: 0;
   text-align: center;
   display: flex;
@@ -163,6 +165,7 @@ nav a {
   flex-wrap: wrap;
   gap: 1em;
 }
+
 .process .container .testimonials {
   background: #f0f0f0;
   padding: 4em 0;
@@ -245,11 +248,7 @@ footer .footer-nav a {
   }
 
   nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    gap: 0.5em;
-    margin-top: 1em;
+    display: none;
   }
 
   .hero h2 {
@@ -301,17 +300,33 @@ footer .footer-nav a {
   .hero h2 {
     font-size: 1.5em;
   }
-  ul li {
+  nav ul {
     display: none;
   }
 
   .hero p {
+    margin: 5px;
+    padding: 25px;
     font-size: 1em;
   }
 
-  .btn-primary,
   .contact-btn {
+    margin-right: 20px;
     width: 85px;
     text-align: center;
+  }
+  .testimonials blockquote {
+    margin-left: 13%;
+  }
+  footer .footer-nav {
+    display: flex;
+    margin-left: 15%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+  }
+  footer p {
+    margin-left: 17%;
   }
 }
