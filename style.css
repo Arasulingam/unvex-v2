@@ -246,7 +246,11 @@ footer .footer-nav a {
     flex-direction: column;
     align-items: flex-start;
   }
-
+  .contact-btn {
+    margin-right: 20px;
+    width: 85px;
+    text-align: center;
+  }
   nav ul {
     display: none;
   }
@@ -278,8 +282,16 @@ footer .footer-nav a {
     max-width: 400px;
   }
 
-  .footer-nav {
-    flex-direction: column;
+  footer .footer-nav {
+    display: flex;
+    margin-left: 27%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+  }
+  footer p {
+    margin-left: 30%;
   }
 
   .process ol {
@@ -288,9 +300,8 @@ footer .footer-nav a {
   }
 
   .testimonials blockquote {
-    margin: 0 1em;
+    margin-left: 25%;
   }
-
   .faq .faq-item {
     margin: 1em 1em;
   }
